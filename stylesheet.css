@@ -22,6 +22,7 @@ body {
 	font-family: computerModern, serif;
 
 	background-color: white;
+	color: black;
 }
 
 .nav {
@@ -90,5 +91,17 @@ img {
 @media screen and (max-width: 850px) {
 	body {
 			width: 95%;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	a {
+		color: coral;
+	}
+
+	body {
+/*		background-color: #191723; */
+		background-color: #1c1b23;
+		color: #ecedda;
 	}
 }
