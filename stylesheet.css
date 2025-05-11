@@ -1,0 +1,94 @@
+@font-face {
+	font-family: appleGaramond;
+	src: url(AppleGaramond.ttf);
+}
+
+@font-face {
+	font-family: computerModern;
+	src: url(cmunrm.ttf);
+}
+
+html {
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 20px;
+
+	max-width: 800px;
+
+	font-family: computerModern, serif;
+
+	background-color: white;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	h1 {
+		display: inline-block;
+		margin: 0px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin-bottom: 0px;
+		padding: 0px;
+	}
+
+	li {
+		display: inline-block;
+		font-size: 1.5em;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}
+
+#nav1 {color: #4FB32F;}
+#nav2 {color: #FDAC01;}
+#nav3 {color: #F36D00;}
+#nav4 {color: #D9212B;}
+#nav5 {color: #802084;}
+#nav6 {color: #0488D7;}
+
+#pagetitle {
+	font-family: appleGaramond, serif;
+	font-size: 3.5em;
+	text-decoration-line: none;
+}
+
+h1 {
+	font-family: appleGaramond, serif;
+	font-size: 2.5em;
+	text-decoration-line: underline;
+	margin: 0px;
+}
+
+h2 {
+	font-family: appleGaramond, serif;
+	font-size: 1.8em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 70%;
+}
+
+.webring {
+	text-align: center;
+}
+
+/* Make the mobile layout Not shi- subpar. */
+@media screen and (max-width: 850px) {
+	body {
+			width: 95%;
+	}
+}
