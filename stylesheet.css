@@ -1,11 +1,11 @@
 @font-face {
 	font-family: appleGaramond;
-	src: url(AppleGaramond.ttf);
+	src: url(assets/AppleGaramond.ttf);
 }
 
 @font-face {
 	font-family: computerModern;
-	src: url(cmunrm.ttf);
+	src: url(assets/cmunrm.ttf);
 }
 
 html {
