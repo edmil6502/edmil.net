@@ -83,7 +83,15 @@ img {
 	width: 70%;
 }
 
+footer {
+	text-align: center;
+}
+
 .webring {
+	text-align: center;
+}
+
+.copyright {
 	text-align: center;
 }
 
