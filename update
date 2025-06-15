@@ -1,0 +1,3 @@
+git add *
+git commit -a
+ssh eddie@edmil.net "cd /var/www/edmil.net; git pull"
