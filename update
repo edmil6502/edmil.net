@@ -1,4 +1,4 @@
 git add *
-git commit -a
+git commit -am 'Automatically updating.'
 git push
 ssh eddie@edmil.net "cd /var/www/edmil.net; git pull"
